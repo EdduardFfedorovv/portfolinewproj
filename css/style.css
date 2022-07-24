@@ -1017,6 +1017,7 @@ margin: 0;
     font-size: 16px;
     padding: 0 15px;
     color: var(--text-black-700);
+    text-transform: capitalize;
 }
 .contact-section .input-group textarea.input-control{
     height: 180px;
