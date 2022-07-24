@@ -1029,3 +1029,13 @@ margin: 0;
     text-align: right;
     padding: 0 15px;
 }
+.contacts__phone-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-black-700);
+}
+.contacts__mail-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-black-700);
+}
