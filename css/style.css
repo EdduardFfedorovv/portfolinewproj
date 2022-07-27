@@ -1022,11 +1022,22 @@ margin: 0;
     color: var(--text-black-700);
     text-transform: capitalize;
 }
+.contact-section .input-group .input-control::placeholder{
+    font-size: 16px;
+    color: var(--text-black-700);
+}
 .contact-section .input-group textarea.input-control{
     height: 115px;
     resize: none;
     padding-top: 15px;
     z-index: 1100;
+    font-size: 16px;
+    color: var(--text-black-700);
+
+}
+.contact-section .input-group textarea.input-control::placeholder{
+    font-size: 16px;
+    color: var(--text-black-700);
 }
 .contact-section .submit-btn{
     flex: 0 0 100%;
