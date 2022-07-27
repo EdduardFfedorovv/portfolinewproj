@@ -40,6 +40,9 @@
         flex: 0 0 50%;
         max-width: 50%;
     }
+    .btn-1{
+        margin-top: 20px;
+    }
     
 }
 
@@ -113,13 +116,21 @@
         top: 70px !important;
     }
     .portfolio-section .filter-item{
-        font-size: 13px;
+        font-size: 11px;
+    }
+    .portfolio-section .portfolio-filter{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 300px;
+        justify-content: center;
+        margin: 0 auto;
     }
 }
 @media(max-width: 370px){
     .portfolio-section .filter-item{
-        font-size: 12px;
+        font-size: 11px;
         margin: 0 0 10px;
+
     }
     .section-title h2{
         font-size: 25px;
