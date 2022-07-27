@@ -1023,9 +1023,10 @@ margin: 0;
     text-transform: capitalize;
 }
 .contact-section .input-group textarea.input-control{
-    height: 180px;
+    height: 115px;
     resize: none;
     padding-top: 15px;
+    z-index: 1100;
 }
 .contact-section .submit-btn{
     flex: 0 0 100%;
