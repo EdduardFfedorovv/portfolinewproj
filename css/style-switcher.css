@@ -8,6 +8,7 @@
     border-radius: 5px;
     transition: all 0.3s ease;
     transform: translateX(100%);
+    
 }
 .style-switcher.open{
     transform: translateX(-15px);
@@ -35,8 +36,14 @@
     
     top: 0;
 }
+.lang-btn1{
+    top: 60px;
+}
+.lang-btn2{
+    top: 120px;
+}
 .style-switcher .day-night{
-    top: 55px;
+    top: 0;
 }
 .style-switcher h4{
     margin: 0 0 10px;

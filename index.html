@@ -44,10 +44,10 @@
     <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
     <div class="nav-menu-inner">
       <ul>
-        <li><a href="#home" class="link-item inner-shadow active">home</a></li>
-        <li><a href="#about" class="link-item outer-shadow hover-in-shadow">about</a></li>
-        <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">portfolio</a></li>
-        <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">contact</a></li>
+        <li><a href="#home" class="link-item inner-shadow active lang" key="home">home</a></li>
+        <li><a href="#about" class="link-item outer-shadow hover-in-shadow lang" key="about">about</a></li>
+        <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow lang" key="portfolio">portfolio</a></li>
+        <li><a href="#contact" class="link-item outer-shadow hover-in-shadow lang" key="contact">contact</a></li>
       </ul>
     </div>
 
@@ -113,10 +113,10 @@
     <div class="container">
       <div class="row full-screen align-items-center">
         <div class="home-text">
-          <p>Hello</p>
-          <h2>i'm Eduard</h2>
-          <h1>Web Developer</h1>
-          <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">More About Me</a>
+          <p class="lang" key="hello">Hello</p>
+          <h2 class="lang" key="eduard">i`m Eduard</h2>
+          <h1 class="lang" key="dew">Web Developer</h1>
+          <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow lang" key="more" >More About Me</a>
         </div>
         <div class="home-img">
           <div class="img-box inner-shadow">
@@ -131,7 +131,7 @@
     <div class="container">
       <div class="row">
         <div class="section-title">
-          <h2 data-heading="main info">About Me</h2>
+          <h2 class="lang" key="about me" " >About Me</h2>
         </div>
       </div>
       <div class="row">
@@ -147,7 +147,7 @@
           </div>
         </div>
         <div class="about-info">
-          <p><span>Hi, my name is Eduard. I am a web developer</span>
+          <p class="lang" ><span class="lang" key="my name">Hi, my name is Eduard. I am a web developer</span>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -157,9 +157,9 @@
             deserunt mollit
             anim id est laborum.
           </p>
-          <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">Download CV</a>
+          <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow lang" key="cv">Download CV</a>
           
-            <div class="skills tab-content">
+            <!-- <div class="skills tab-content">
             <div class="row">
               <div class="skill-item">
                 <p>HTML</p>
@@ -198,7 +198,7 @@
               </div>
   
             </div>
-          </div>
+          </div> -->
         </div>
       </div> 
     </div>
@@ -208,32 +208,32 @@
     <div class="container">
       <div class="row">
         <div class="section-title">
-          <h2 data-heading="portfolio">latest works</h2>
+          <h2 class="lang" key="works">latest works</h2>
         </div>
       </div>
 
       <div class="rov">
         <div class="portfolio-filter">
-          <span class="filter-item outer-shadow active" data-target="all">all</span>
-          <span class="filter-item" data-target="web-aplication">web aplication</span>
-          <span class="filter-item" data-target="photoshop">photoshop</span>
-          <span class="filter-item" data-target="mobile-app">mobile app</span>
-          <span class="filter-item" data-target="e-comerce">e comerce</span>
+          <span class="filter-item outer-shadow active lang" key="all" data-target="all">all</span>
+          <span class="filter-item lang" key="aplication" data-target="web-aplication">web aplication</span>
+          <span class="filter-item lang" key="photoshop" data-target="photoshop">photoshop</span>
+          <span class="filter-item lang" key="mobile" data-target="mobile-app">mobile app</span>
+          <span class="filter-item lang" key="commerce" data-target="e-commerce">e-commerce</span>
         </div>
       </div>
 
       <div class="row portfolio-items">
-        <div class="portfolio-item" data-category="e-comerce">
+        <div class="portfolio-item" data-category="e-commerce">
           <div class="portfolio-item-inner outer-shadow">
             <div class="portfolio-item-img img">
               <img src="img/portfolio/thumb/project-1.png" alt="portfolio" data-screenshots="img/portfolio/large/project-1/1.png">
-              <span class="view-project">view-project</span>
+              <span class="view-project lang" key="proj">view-project</span>
             </div>
-            <p class="portfolio-item-title">window glazing landing page</p>
+            <p class="portfolio-item-title lang" key="window">window glazing landing page</p>
             <div class="portfolio-item-details">
               <div class="row">
                 <div class="descriptions">
-                  <h3>project brief</h3>
+                  <h3 class="lang" key="window-brief">project brief</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et
@@ -244,10 +244,10 @@
                 </div>
                 <div class="info">
                   <ul>
-                    <li>date- <span>2022</span></li>
+                    <li class="lang" key="data-window"> date-2022</li>
                     <!-- <li>cleant- <span>xyz</span></li> -->
-                    <li>tools- <span>html, css, javascript</span></li>
-                    <li>web- <span><a href="https://edduardffedorovv.github.io/window/">https://edduardffedorovv.github.io/window/</a></span></li>
+                    <li class="lang" key="tools-window" >tools-html, css, javascript</li>
+                    <li >web-<a href="https://edduardffedorovv.github.io/window/">https://edduardffedorovv.github.io/window/</a></li>
                   </ul>
                 </div>
               </div>
@@ -255,7 +255,7 @@
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="web-aplication">
+        <!-- <div class="portfolio-item" data-category="web-aplication">
           <div class="portfolio-item-inner outer-shadow">
             <div class="portfolio-item-img img">
               <img src="img/portfolio/thumb/project-2.png" alt="portfolio" data-screenshots="img/portfolio/large/project-2/1.png,
@@ -286,19 +286,19 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div class="portfolio-item" data-category="mobile-app">
           <div class="portfolio-item-inner outer-shadow">
             <div class="portfolio-item-img img">
               <img src="img/portfolio/thumb/project-3.jpg" alt="portfolio" data-screenshots="img/portfolio/large/project-3/1.jpg">
-              <span class="view-project">view-project</span>
+              <span class="view-project lang" key="proj2">view-project</span>
             </div>
-            <p class="portfolio-item-title">product landing page</p>
+            <p class="portfolio-item-title lang" key="mobile-application-land">mobile application landing page</p>
             <div class="portfolio-item-details">
               <div class="row">
                 <div class="descriptions">
-                  <h3>project brief</h3>
+                  <h3 class="lang" key="wash-brief">project brief</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et
@@ -309,9 +309,9 @@
                 </div>
                 <div class="info">
                   <ul>
-                    <li>date- <span>2022</span></li>
+                    <li class="lang" key="date-wash">date-2022</li>
                     <!-- <li>cleant- <span>xyz</span></li> -->
-                    <li>tools- <span>html, css, javascript</span></li>
+                    <li class="lang" key="tolls-wash">tools-html, css, javascript</li>
                     <li>web- <span><a href="https://edduardffedorovv.github.io/car-wash/">https://edduardffedorovv.github.io/car-wash/</a></span></li>
                   </ul>
                 </div>
@@ -320,7 +320,7 @@
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="web-aplication">
+        <!-- <div class="portfolio-item" data-category="web-aplication">
           <div class="portfolio-item-inner outer-shadow">
             <div class="portfolio-item-img img">
               <img src="img/portfolio/thumb/project-4.png" alt="portfolio"
@@ -351,20 +351,20 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="portfolio-item" data-category="e-comerce">
+        <div class="portfolio-item" data-category="e-commerce">
           <div class="portfolio-item-inner outer-shadow">
             <div class="portfolio-item-img img">
               <img src="img/portfolio/thumb/project-5.png" alt="portfolio"
                 data-screenshots="img/portfolio/large/project-5/1.png">
-              <span class="view-project">view-project</span>
+              <span class="view-project lang" key="vet-proj">view-project</span>
             </div>
-            <p class="portfolio-item-title">veterinary clinic landing page</p>
+            <p class="portfolio-item-title lang" key="vet-name">veterinary clinic landing page</p>
             <div class="portfolio-item-details">
               <div class="row">
                 <div class="descriptions">
-                  <h3>project brief</h3>
+                  <h3 class="lang" key="vet-breaf">project brief</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et
@@ -375,9 +375,9 @@
                 </div>
                 <div class="info">
                   <ul>
-                    <li>date- <span>2022</span></li>
+                    <li class="lang" key="vet-date">date-2022</li>
                     
-                    <li>tools- <span>html, css, javascript</span></li>
+                    <li class="lang" key="vet-tools">tools-html, css, javascript</li>
                     <li>web- <span><a href="https://edduardffedorovv.github.io/vet-clinic/">https://edduardffedorovv.github.io/vet-clinic/</a></span></li>
                   </ul>
                 </div>
@@ -395,24 +395,24 @@
     <div class="container">
       <div class="row">
         <div class="section-title">
-          <h2 data-heading="contact">Get in Touch</h2>
+          <h2 class="lang" key="contacts">contacts</h2>
         </div>
       </div>
       <div class="row">
         <div class="contact-item">
-          <div class="contact-item-inner outer-shadow">
+          <a href="tel:0731346705" class="contact-item-inner outer-shadow hover-in-shadow">
             <i class="fas fa-phone"></i>
-            <span>Phone</span>
-            <a class="contacts__phone-link" href="tel:0731346705">+38-073-13-46-705</a>
-          </div>
+            <span class="lang" key="phone">Phone</span>
+            <span>+38-073-13-46-705</span>
+          </a>
         </div>
 
         <div class="contact-item">
-          <div class="contact-item-inner outer-shadow">
+          <a href="mailto:fedorovspa@gmail.com"" class="contact-item-inner outer-shadow hover-in-shadow">
             <i class="fas fa-envelope"></i>
             <span>email</span>
-            <a class="contacts__mail-link" href="mailto:fedorovspa@gmail.com">fedorovspa@gmail.com</a>
-          </div>
+            <span>fedorovspa@gmail.com</span>
+          </a>
         </div>
 
       </div>
@@ -421,25 +421,25 @@
           <form>
             <div class="row">
               <div class="w-50">
-                <div class="input-group outer-shadow hover-in-shadow">
-                  <input type="text" placeholder="name" class="input-control">
+                <div class="input-group ">
+                  <input class="input-control lang" key="input-name" type="text" name="name" placeholder="name" id="name" >
                 </div>
-                <div class="input-group outer-shadow hover-in-shadow">
-                  <input type="text" placeholder="Email" class="input-control">
+                <div class="input-group ">
+                  <input type="text" placeholder="Email" class="input-control" >
                 </div>
-                <div class="input-group outer-shadow hover-in-shadow">
+                <!-- <div class="input-group ">
                   <input type="text" placeholder="Subject" class="input-control">
-                </div>
+                </div> -->
               </div>
               <div class="w-50">
-                <div class="input-group outer-shadow hover-in-shadow">
-                  <textarea class="input-control" placeholder="message"></textarea>
+                <div class="input-group ">
+                  <textarea class="input-control lang" key="message-text" id="textarea" placeholder="message"></textarea>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="submit-btn">
-                <button type="submit" class="btn-1 outer-shadow hover-in-shadow">send message</button>
+                <button type="submit" class="btn-1 outer-shadow hover-in-shadow lang" key="send message">send message</button>
               </div>
             </div>
           </form>
@@ -453,7 +453,7 @@
       <div class="pp-details-inner">
         <div class="pp-title">
           <h2>personal portfolio</h2>
-          <p>Category - <span class="pp-project-category"></span></p>
+          <!-- <p>Category - <span class="pp-project-category"></span></p> -->
         </div>
         <div class="pp-project-details">
           
@@ -467,7 +467,7 @@
 
     <div class="pp-main">
       <div class="pp-main-inner">
-        <div class="pp-project-details-btn outer-shadow hover-in-shadow">project details <i class="fas fa-plus"></i>
+        <div class="pp-project-details-btn outer-shadow hover-in-shadow" > <span class="lang" key="details" >project details </span><i class="fas fa-plus"></i>
         </div>
         <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
         <img src="img/portfolio/large/project-1/1.png" alt="img" class="pp-img outer-shadow">
@@ -484,24 +484,30 @@
 
 
   <div class="style-switcher outer-shadow">
-    <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
+     <!-- <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
       <i class="fas fa-cog fa-spin"></i>
+    </div> -->
+    <div class="s-icon outer-shadow lang-btn1 hover-in-shadow" id="ukrain">
+      <i class="fas lang-1 translate" id="ua">ua</i>
+    </div>
+    <div class="s-icon outer-shadow lang-btn2 hover-in-shadow lang-btn1 active1" id="english">
+      <i class="fas lang-2 translate" id="en">en</i>
     </div>
     <div class="day-night s-icon outer-shadow hover-in-shadow">
       <i class="fas"></i>
     </div>
 
-    <h4>Theme Colors</h4>
+    <!-- <h4>Theme Colors</h4>
     <div class="colors">
       <span class="color-1" onclick="setActiveStyle('color-1')"></span>
       <span class="color-2" onclick="setActiveStyle('color-2')"></span>
       <span class="color-3" onclick="setActiveStyle('color-3')"></span>
       <span class="color-4" onclick="setActiveStyle('color-4')"></span>
       <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-    </div>
+    </div> -->
   </div>
   
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <!-- main js -->
   <script src="js/main.js"></script>
   <!-- style switcher js -->

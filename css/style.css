@@ -402,7 +402,7 @@ padding: 15px;
     line-height: 35px;
     border-radius: 50%;
     position: absolute;
-    right: 190px;
+    right: 60px;
     top: 21px;
     cursor: pointer;
     text-align: center;
@@ -432,6 +432,7 @@ padding: 15px;
 }
 .nav-menu ul li a.active{
     color: var(--skin-color);
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
 }
 .nav-menu ul li a::after{
     border-radius: 30px;
@@ -970,6 +971,7 @@ margin: 0;
     border-radius: 5px;
     width: 100%;
     margin-bottom: 30px;
+    display: block;
 }
 .contact-section .contact-item-inner i{
     font-size: 25px;
@@ -1013,7 +1015,8 @@ margin: 0;
     width: 100%;
     border-radius: 30px;
     border: none;
-    background-color: transparent;
+    background-color: var(--bg-black-50);
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
     font-size: 16px;
     padding: 0 15px;
     color: var(--text-black-700);
@@ -1039,4 +1042,7 @@ margin: 0;
     font-size: 16px;
     font-weight: 600;
     color: var(--text-black-700);
+}
+.style-switcher .s-icon.active1{
+    color: #fb839e;
 }

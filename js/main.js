@@ -239,3 +239,116 @@ window.addEventListener('load', () => {
         document.querySelector('.preloader').style.display='none';
     },600)
 })
+
+$('#ua').on('click', () => {
+    $('#ukrain').toggleClass('active1');
+    $('#english').removeClass('active1');
+});
+
+$('#en').on('click', () => {
+    $('#english').toggleClass('active1');
+    $('#ukrain').removeClass('active1');
+});
+
+
+var arrLang = {
+    'ua': {
+        'home' : 'Головна',
+        'about' : 'Про себе',
+        'portfolio' : 'Портфоліо',
+        'contact' : 'Контакти',
+        'hello' : 'Привіт',
+        'eduard' : 'мене звати Едуард',
+        'dew' : 'я веб розробник',
+        'more' : 'Більше Про Себе',
+        'main info' : 'головна інформація',
+        'about me' : 'ПРО МЕНЕ',
+        'my name' : 'Привіт, мене звати Едуард. Я веб розробник',
+        'cv' : 'Завантажи CV',
+        'works' : 'Останні Роботи',
+        'all' : 'Всі',
+        'aplication' : 'веб додаток',
+        'photoshop' : 'фотошоп',
+        'mobile' : 'мобільний додаток',
+        'commerce' : 'е-комерція',
+        'proj' : 'дивитись проект',
+        'window' : 'лендінг компанії по установці вікон',
+        'window-brief' : 'опис проекту',
+        'data-window' : 'рік-2022',
+        'tools-window' : 'інструменти-html, css, javascript',
+        'proj2' : 'дивитись проект',
+        'mobile-application-land' : 'лендінг мобільного додатку',
+        'wash-brief' : 'опис проекту',
+        'date-wash' : 'рік-2022',
+        'tolls-wash' : 'інструменти-html, css, javascript',
+        'vet-proj' : 'дивитись проект',
+        'vet-name' : 'лендінг ветеренарної клініки',
+        'vet-breaf' : 'опис проекту',
+        'vet-date' : 'рік-2022',
+        'vet-tools' : 'інструменти-html, css, javascript',
+        'details' : 'деталі проекту',
+        'contacts' : 'контакти',
+        'phone' : 'телефон',
+        'input-name' : 'ім`я',
+        'send message' : 'відправити повідомлення',
+        'details' : 'деталі',
+        'message-text' : 'повідомлення',
+        } ,
+    'en': {
+        'home' : 'Home',
+        'about' : 'About',
+        'portfolio' : 'Portfolio',
+        'contact' : 'Contact',
+        'hello' : 'Hello',
+        'eduard' : 'i`m Eduard',
+        'dew' : 'Web Developer',
+        'more' : 'More About Me',
+        'main info' : 'main info',
+        'about me' : 'ABOUT ME',
+        'my name' : 'Hi, my name is Eduard. I am a web developer',
+        'cv' : 'Download CV',
+        'works' : 'latest works',
+        'all' : 'All',
+        'aplication' : 'web aplication',
+        'photoshop' : 'photoshop',
+        'mobile' : 'mobile app',
+        'commerce' : 'e-commerce',
+        'proj' : 'view-project',
+        'window' : 'window glazing landing page',
+        'window-brief' : 'project brief',
+        'data-window' : 'date-2022',
+        'tools-window' : 'tools-html, css, javascript',
+        'proj2' : 'view-project',
+        'mobile-application-land' : 'mobile application landing page',
+        'wash-brief' : 'project brief',
+        'date-wash' : 'date-2022',
+        'tolls-wash' : 'tools-html, css, javascript',
+        'vet-proj' : 'view-project',
+        'vet-name' : 'veterinary clinic landing page',
+        'vet-breaf' : 'project brief',
+        'vet-date' : 'date-2022',
+        'vet-tools' : 'tools-html, css, javascript',
+        'details' : 'project details',
+        'contacts' : 'contacts',
+        'phone' : 'phone',
+        'input-name' : 'name',
+        'send message' : 'send message',
+        'details' : 'project details',
+        'message-text' : 'message',
+    } 
+}
+
+$(function(){
+    $('.translate').click(function(){
+        var lang = $(this).attr('id');
+
+        $('.lang').each(function(index, item){
+            $(this).text(arrLang[lang][$(this).attr('key')]);
+            
+            $("#name").attr('placeholder', arrLang[lang][$('#name').attr('key')]);
+            $("#textarea").attr('placeholder', arrLang[lang][$('#textarea').attr('key')]);
+        });
+        
+    });
+});
+
