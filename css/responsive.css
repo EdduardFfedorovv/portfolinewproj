@@ -33,6 +33,9 @@
     .lang-btn2{
         top: 80px !important;
     }
+    .about-info{
+        margin-bottom: 20px;
+    }
     
 }
 @media(max-width: 991px){
