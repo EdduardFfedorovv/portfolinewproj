@@ -782,11 +782,11 @@ margin: 0;
 .portfolio-popup .pp-details-inner{
     padding: 30px 0;
 }
-.portfolio-popup .descriptions{
+/* .portfolio-popup .descriptions{
     flex: 0 0 65%;
     max-width: 65%;
     padding: 0 15px;
-}
+} */
 .portfolio-popup .pp-title{
     padding: 0 15px;
 }
@@ -1022,10 +1022,7 @@ margin: 0;
     color: var(--text-black-700);
     text-transform: capitalize;
 }
-.contact-section .input-group .input-control::placeholder{
-    font-size: 16px;
-    color: var(--text-black-700);
-}
+
 .contact-section .input-group textarea.input-control{
     height: 115px;
     resize: none;
@@ -1035,10 +1032,7 @@ margin: 0;
     color: var(--text-black-700);
 
 }
-.contact-section .input-group textarea.input-control::placeholder{
-    font-size: 16px;
-    color: var(--text-black-700);
-}
+
 .contact-section .submit-btn{
     flex: 0 0 100%;
     max-width: 100%;
