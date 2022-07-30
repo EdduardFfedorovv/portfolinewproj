@@ -240,14 +240,24 @@ window.addEventListener('load', () => {
     },600)
 })
 
-$('#ua').on('click', () => {
-    $('#ukrain').toggleClass('active1');
-    $('#english').removeClass('active1');
+$('#ukrain').on('click', () => {
+    if($('#ukranin').hasClass('active1')){
+        return
+    }else{
+        $('#ukrain').toggleClass('active1');
+        $('#english').removeClass('active1');
+    }
+   
 });
 
-$('#en').on('click', () => {
-    $('#english').toggleClass('active1');
-    $('#ukrain').removeClass('active1');
+$('#english').on('click', () => {
+    if($('#english').hasClass('active1')){
+        return
+    }else{
+        $('#english').toggleClass('active1');
+        $('#ukrain').removeClass('active1');
+    }
+    
 });
 
 
