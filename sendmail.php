@@ -13,3 +13,6 @@ $mail -> IsHTML(true);
 
 
 $mail ->addAdress('fedorovspa@gmail.com');
+
+
+?>
