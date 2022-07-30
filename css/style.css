@@ -984,7 +984,7 @@ margin: 0;
     font-weight: 600;
     color: var(--text-black-700);
     margin: 15px 0 10px;
-    text-transform: capitalize;
+    
 }
 .contact-section .contact-item-inner p{
     font-size: 16px;
@@ -1007,7 +1007,7 @@ margin: 0;
     
     border-radius: 30px;
 }
-.contact-section .input-group::placeholder{
+.input-control::placeholder{
     font-size: 16px;
     color: var(--text-black-700);
 }

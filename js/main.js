@@ -329,7 +329,7 @@ var arrLang = {
         'vet-date' : 'date-2022',
         'vet-tools' : 'tools-html, css, javascript',
         'details' : 'project details',
-        'contacts' : 'contacts',
+        'contacts' : 'contact me',
         'phone' : 'phone',
         'input-name' : 'name',
         'send message' : 'send message',
@@ -343,7 +343,10 @@ $(function(){
         var lang = $(this).attr('id');
 
         $('.lang').each(function(index, item){
-            $(this).text(arrLang[lang][$(this).attr('key')]);
+            if(!$(this).attr("data-text")){
+                $(this).text(arrLang[lang][$(this).attr('key')]);
+            }
+            
             
             $("#name").attr('placeholder', arrLang[lang][$('#name').attr('key')]);
             $("#textarea").attr('placeholder', arrLang[lang][$('#textarea').attr('key')]);
