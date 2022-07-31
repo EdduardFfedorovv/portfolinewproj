@@ -325,7 +325,7 @@ $(document).ready(function() {
 });
 
 $('#ukrain').on('click', () => {
-    if($('#ukranin').hasClass('active1')){
+    if($('#ukrain').hasClass('active1')){
         return
     }else{
         $('#ukrain').toggleClass('active1');
