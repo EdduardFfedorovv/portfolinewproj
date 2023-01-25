@@ -817,6 +817,9 @@ margin: 0;
     margin: 0 0 15px;
     text-transform: capitalize;
 }
+.pp-project-details .row{
+    justify-content: space-between;
+}
 .portfolio-popup .descriptions p{
     font-size: 16px;
     color: var(--text-black-600);
